@@ -1,5 +1,5 @@
 # DARK-STAINED-LOVE
-Página web para proyecto de Multimedia.
+--------------------------------Página web para proyecto de Multimedia--------------------------------
 
 Trabnajo realizado por:
 
