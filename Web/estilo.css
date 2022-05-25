@@ -1,0 +1,687 @@
+
+@font-face {
+	font-family: DancingScript;
+	src: url('Fuentes/DancingScript.ttf') format('truetype');
+}
+
+@font-face{
+	font-family: Tapestry;
+	src: url("Fuentes/Tapestry-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: MsMadi;
+	src: url("Fuentes/MsMadi-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: QuickSand;
+	src: url("Fuentes/QuickSand.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: MyFont;
+	src: url("Fuentes/Myfont-Regular.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: Satisfy;
+	src: url("Fuentes/Staisfy-Regular.tff") format("truetype");
+}
+
+@font-face{
+	font-family: Shadows;
+	src: url("Fuentes/Shadows.tff") format("truetype");
+}
+
+body{
+	background-image: url("Fotos/Fondo.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+h1{
+	font-size: 180px;
+	font-family: MyFont, cursive;
+	color: #FFBCF5;
+	margin-bottom: -10px;
+	margin-top: -10px;
+	margin-left: -20px;
+	padding-left: 30px;
+	font-style: italic;
+	text-shadow: 5px 5px 6px black;
+}
+
+h3[Type = "Pregunta"]{
+	
+}
+
+h4{
+	font-family: Shadows, cursive;
+	font-size: 25px;
+	padding-left: 60px;
+	margin: -15px 20px 20px 20px;
+	color: #E7E0F7;
+}
+
+header{
+	width: 500px;
+	text-align: center;
+	margin: 50px 300px;
+	font-weight: ligth;
+	color: black;
+	background-color: #E7E0F7;
+	border-radius: 20px;
+	padding: 15px;
+}
+
+p{
+	font-size: 17px;
+	margin-right: 50px;
+	font-family: cursive;
+}
+
+audio{
+	width: 1000px;
+	color: #FFBCF5;
+	background: none;
+	float: bottom;
+	margin-top: -80px;
+	margin-left: 100px;
+}
+
+video{
+	width: 1000px;
+	margin-top: 100px;
+	border-radius: 20px;
+	margin-right: 300px;
+	margin-left: 100px;
+}
+
+button[Type = "Título"]{
+	display: block;
+	background: none;
+	border: 0;
+	font-family: MyFont;
+	color: #FFBCF5;
+	font-size: 80px;
+	font-style: italic;
+	padding-left: 25px;
+	padding-top: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px 0px #A026A0;
+}
+
+button[Type = "Título"]:hover{
+	background: none;
+	border: 0;
+	font-family: MyFont;
+	color: #A026A0;
+	font-size: 75px;
+	font-style: italic;
+	padding-left: 25px;
+	text-shadow: 2px 2px 0px #FFBCF5;
+}
+
+li{
+	font-size: 17px;
+	margin-right: 50px;
+}
+
+footer{
+	font-size: 10px;
+	margin-left: 10px;
+	color: #FFBCF5;
+	font-family: cursive;
+}
+
+p[Type = "infoPersonaje"]{
+	font-size: 17px;
+	text-align: center-left;
+	margin-left: 300px;
+}
+
+a[Type = "Links"]{
+	float: left;
+	text-decoration: none;
+}
+
+img[Type = "DibujoPersonaje"]{
+	height: 300px;
+	width: 188;
+	float: left;
+	margin-right: 30px;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+img[Type = "flecha"]{
+	width: 40px;
+	padding-top: 20px;
+	margin-left: 20px;
+	float: right;
+}
+
+strong[Type = "Subtítulo"]{
+	font-family: DancingScript, cursive;
+	font-size: 23px;
+}
+
+figcaption{
+	font-size: 45px;
+	font-family: MyFont, cursive;
+	color: #FFBCF5;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+table{
+	width: 900px;
+}
+
+caption{
+	background-color: #FFBCF5;
+	color: black;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 50px 50px 0px 0px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 10px;
+}
+
+thead{
+	background-color: white;
+}	
+
+th{
+	
+	margin: 20px;
+	background-color: #FFBCF5;
+	color: black;
+	font-weight: bold;
+	border-color: white white black #FFBCF5;
+	border-style: solid;
+	font-size: 25px;
+}
+
+td{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	padding: 15px 5px;
+	background-color: #E7E0F7;
+	border-style: solid;
+	border-color: black;
+}
+
+#LastTh{
+	border-color: white #FFBCF5 black #FFBCF5;
+}
+
+#tablaObjetivos{
+	border-collapse: collapse;
+}
+
+#LastIzq{
+	border-style: solid solid none none;
+	border-radius: 0px 0px 0px 50px;
+	font-style: italic;
+}
+
+#LastDer{
+	border-style: solid none none solid;
+	border-radius: 0px 0px 50px 0px;
+}
+
+#izqTabla{
+	border-style: solid solid solid none;
+	font-style: italic;
+}
+
+#derTabla{
+	border-style: solid none solid solid;
+}
+
+#abajoTabla{
+	border-style: solid solid none solid;
+}
+
+#Campaña{
+	display: initial;
+	transition: all 0.5s ease; 
+}
+
+#tituloHistoria{
+	color: #A86F45; 
+	font-family: MyFont, cursive;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 100px;
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+
+#tituloPersonajes{
+	color: black;
+	font-family: MyFont, cursive;
+	font-size: 100px;
+	margin-bottom: -20px;
+	margin-top: 20px;
+	font-style: italic;
+}
+
+#tituloGameplay{
+	color: #1400BB;
+	font-family: MyFont, cursive;
+	font-size: 100px;
+	margin-bottom: -20px;
+	margin-top: 20px;
+}
+
+#Historia{
+	background-image: url("Fotos/FondoHoja.png");
+	background-attachment: fixed;
+}
+
+#Personajes{
+	background-image: url("Fotos/FondoPersonajes.png");
+	background-attachment: fixed;
+}
+
+#Gameplay{
+	background-image: url("Fotos/FondoGameplay.png");
+	background-attachment: scroll;
+}
+
+#BotónDinero{
+	margin-bottom: -50px;
+}
+
+#BotónPreguntas{
+	margin-top: 90px;
+}
+
+#Instagram{
+	width: 150px;
+}
+
+#Twitter{
+	width: 125px;
+	padding-top: 13px;
+	padding-bottom: 12px;
+}
+
+#Discord{
+	width: 150px;
+}
+
+#Síguenos{
+	padding-left: 25px;
+	padding-top: 50px;
+}
+
+#Síguenos.active{
+	margin-top: -50px;
+}
+
+#Comentarios{
+	margin-left: 100px;
+}
+
+#masLejos{
+	margin-top: 15px;
+}
+
+#Cuadernillo{
+	background-image: url("Fotos/ContribuciónLibreta.png");
+}
+
+#Llavero{
+	background-image: url("Fotos/ContribuciónLlavero.png");
+}
+
+#Cartas{
+	background-image: url("Fotos/ContribuciónCarta.png");
+}
+
+#parteInicial{
+	overflow: hidden;
+	padding-bottom: 40px;
+	width: 1800px;
+}
+
+#Soundtrack{
+	float: bottom;
+	margin-left: 1000px;
+	font-family: MyFont;
+	font-size: 80px;
+	color: #FFBCF5;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 2px 2px 0px #A026A0;
+	padding-top: 70px;
+}
+
+#Tráiler{
+	font-family: MyFont;
+	font-size: 80px;
+	color: #FFBCF5;
+	text-shadow: 2px 2px 0px #A026A0;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: -100px;
+	margin-left: 500px;
+	padding-top: 40px;
+}
+
+.Nav{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3px;
+	transition: 0.5s ease;
+}
+
+.Nav.active{
+	width: 100%;
+	background: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 3px;
+	border-radius: 40px;
+	padding-left: 8px;
+	position: fixed;
+}
+
+.Menú{
+	display:flex;
+	width: 100%;
+}
+
+.MenúItem{
+	list-style: none;
+	margin-right: 75px;
+}
+
+.MenúLink{
+	font-family: MyFont;
+	text-decoration: none;
+	display: block;
+	font-size: 25px;
+	color: #FB6FFB;
+	font-weight: bold;
+	transition: all 0.5s ease;
+}
+
+.MenúLink:hover{
+	padding: 5px 8px;
+	background: black;
+	color: white;
+	border-radius: 30%;
+}
+
+.Intro{
+	padding-left: 25px;
+}
+
+.Descripción{
+	background-color: #E7E0F7;
+	width: 1050px;
+	margin-left: 40px;
+	margin-top: 80px;
+	padding: 30px 40px 30px 30px;
+	border-radius: 50px;
+	text-align: justify;
+	font-size: 20px;
+	float: left;
+}
+
+.TituloNoCampaña{
+	font-family: MyFont;
+	color: #FFBCF5;
+	font-size: 75px;
+	font-style: italic;
+	margin-bottom: -10px;
+	text-shadow: 2px 2px 0px #A026A0;
+}
+
+.TituloDinero{
+	font-family: MyFont;
+	color: #FFBCF5;
+	font-size: 75px;
+	font-style: italic;
+	margin-bottom: -10px;
+	padding-left: 25px;
+}
+
+.ApartadosCampaña{
+	background-size: 100%;
+	background-attachment: fixed;
+	padding-left: 25px;
+	padding-top: 3px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+	padding-bottom: 10px;
+}
+
+.padding{
+	padding-left: 25px;
+}
+
+.megaPadding{
+	padding-left: 50px;
+}
+
+.CasillaPersonaje{
+	overflow: hidden;
+	border-style: double;
+	border-width: 8px;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	
+}
+
+.NombrePersonaje{
+	font-family: Tapestry;
+	font-size: 32px;
+}
+
+.FrasePersonaje{
+	font-family: MsMadi;
+	font-size: 27px;
+}
+
+.Contribución{
+	border-style: solid;
+	border-width: 5px;
+	border-radius: 15px;
+	overflow: hidden;
+	border-color: #CC4DDC;
+	margin-top: 35px;
+	width: 1200;
+	height: 150px;
+}
+
+.Contribución:hover{
+	border-style: solid;
+	border-width: 10px;
+	border-radius: 15px;
+	overflow: hidden;
+	border-color: #CC4DDC;
+	margin-top: 35px;
+	width: 1200;
+	height: 150px;
+}
+
+.DescripciónContribución{
+	float: top;
+	font-size: 20px;
+	color: white;
+	margin-left: 300px;
+	width: 600px;
+	font-weight: bold;
+}
+
+.GastosEnvío{
+	margin-left: 310px;
+	margin-top: -10px;
+}
+
+.OtrosJuegos{
+	width: 350px;
+	height: 350px;
+	border-radius: 40px;
+	margin-left: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.Siguenos{
+	overflow: hidden;
+	padding-left: 25px;
+	margin-bottom: 50px;
+}
+
+.CasillaMiembro{
+	overflow: hidden;
+	margin-right: 13px;
+	margin-left: 25px;
+}
+
+.Equipo{
+	margin-top: -45px;
+}
+
+.FotosEquipo{
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 20px;
+	width: 200px;
+	margin-top: 15px;
+	float: left;
+}
+
+.NombreEquipo{
+	font-family: Tapestry;
+	font-size: 35px;
+	color: #FFBCF5;
+	margin-top: 25px;
+	font-style: italic;
+}
+
+.DescripciónEquipo{
+	font-size: 20px;
+	color: #FFBCF5;
+	margin-top: -20px;
+	padding-left: 275px;
+}
+
+.Correo{
+	font-size: 18px;
+	padding-left: 35px;
+	color: #FF18FF;
+	text-decoration: ;
+}
+
+.Jugabilidad{
+	padding-left: 100px;
+}
+
+.Respuesta{
+	font-size: 17px;
+	margin-left:105px;
+	width: 1000px;
+	justify-content: center;
+	background-color: #E7E0F7;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+.Pregunta{
+	padding-left: 75px;
+	font-family: MyFont;
+	color: #FFBCF5;
+	font-size: 75px;
+	font-style: italic;
+	margin-bottom: -10px;
+	background: none;
+	border: none;
+	font-weight: bold;
+	margin-top: 50px;
+	display: block;
+}
+
+.Pregunta:hover{
+	padding-left: 75px;
+	font-family: MyFont;
+	color: #A026A0;
+	font-size: 75px;
+	font-style: italic;
+	margin-bottom: -10px;
+	background: none;
+	border: none;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.flechaHorizontal{
+	width: 30px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+
+.flechaHorizontal:hover{
+	width: 40px;
+	margin-right: 10px;
+	padding-bottom: 10px;
+}
+
+.Carátula{
+	width: 500px;
+	border-radius: 20px;
+	margin-left: 40px;
+	float: left;
+}
+
+.Créditos{
+	background-color: #E7E0F7;
+	width: 600px;
+	height: 230px;
+	margin-left: 50px;
+	padding: 30px 40px 30px 30px;
+	border-radius: 50px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.Crédito{
+	list-style: none;
+	font-size: 20px;
+	font-family: cursive;
+	color: #FFBCF5;
+	margin-left:20px;
+}
+
+.Crédito:hover{
+	font-size: 22px;
+}
+
+
+
+
+

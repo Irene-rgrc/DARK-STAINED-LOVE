@@ -1,0 +1,368 @@
+<html>
+	<head>
+		<title>Dark Stained Love</title>
+		<link href = "estilo.css" rel = "stylesheet">
+	</head>	
+	
+	<body>
+
+	<nav class = "Nav">
+		<ul class = "Menú">
+			<li class = "MenúItem"><a = href ="#Inicio" class = "MenúLink"> Inicio</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleJuego()"><a = href ="#Historia" class = "MenúLink"> Historia</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleJuego()"><a = href ="#Personajes" class = "MenúLink"> Personajes</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleJuego()"><a = href ="#Gameplay" class = "MenúLink"> Gameplay</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleDinero()"><a = href ="#Contribuciones" class = "MenúLink"> Contribuciones</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleDinero()"><a = href ="#Objetivos" class = "MenúLink"> Objetivos</a></li>
+			<li class = "MenúItem" onclick = "hacerVisiblePreguntas()"><a = href ="#BotónPreguntas" class = "MenúLink"> Preguntas frecuentes</a></li>
+			<li class = "MenúItem" onclick = "hacerVisibleComentarios()"><a = href ="#BotónComentarios" class = "MenúLink"> Comentarios</a></li>
+			<li class = "MenúItem"><a = href ="#Redes" class = "MenúLink"> ¡Síguenos!</a></li>
+			<li class = "MenúItem"><a = href ="#Equipo" class = "MenúLink"> Equipo</a></li>
+			<li class = "MenúItem"><a = href ="#MásJuegos" class = "MenúLink"> Más juegos </a> </li>
+			<li class = "MenúItem"><a = href ="#TítuloCréditos" class = "MenúLink"> Créditos </a> </li>
+			
+		</ul>
+	</nav>
+	
+	<div class = "Intro">
+		
+		<br id = "Inicio"> 
+		<h1>DARK STAINED LOVE</h1>
+		<h4> Adéntrate en esta novela visual no lineal y contempla las consecuencias de tus acciones </h4>
+				
+		<header><strong> ATENCIÓN: </strong>esta página simula la campaña de microfinanciación de un videojuego ficticio y no representa un producto real. Práctica de Multimedia, 1º GDDV - Curso 21/22 (Quintana), URJC. La URJC no se hace responsable del contenido expuesto por el autor.</header>
+		
+		<div id = "parteInicial">
+			<img src = "Fotos/Carátula.png" alt = "Carátula" class = "Carátula"</img>
+			
+			<p class = "Descripción"> Mc era una joven de 17 años, nacida de manera indeseada en una familia pobre que nunca se preocupó por ella. Jamás le gustó socializar, y prefería pasar desapercibida 
+			sin querer ser en ningún momento el centro de atención. Sin embargo y a pesar de esto, era el blanco de unos abusones que nunca la dejaban en paz. Un día, mientras paseaba 
+			sujetando con fuerza su libro favorito, <i>Dark Stained Love</i>, entre sus brazos, fue víctima de un brutal ataque por parte de sus acosadores que finalmente se acabó cobrando su vida. 
+			Sin embargo, este no es el final de su historia: Mc se reencarna en Erika, un personaje secundario de su libro favorito, justo cuando esta muere en la historia original.
+			Al entrar al mundo despierta unos extraños poderes que salvan al personaje, ahora la propia Mc, de su muerte. Sin esperarlo, un extraño y misterioso muchacho la rapta, 
+			llevándola a Svart, el reino de la oscuridad, donde conoce al apuesto príncipe heredero. Sumérgete en la historia del libro y descubre qué impactos y consecuencias tendrán tus 
+			acciones sobre la historia original y qué cambios producirán. ¿Podrá Mc evitar la muerte del único chico que le brindó ayuda? ¿Podrás descubrir todos los misterios que se encuentran 
+			en ese mundo de fantasía?</p>
+			
+			<p id = "Soundtrack">Soundtrack: </p>
+			
+			<audio controls>
+				<source src = "Tráiler/D.S.L.wav" type = "audio/wav">
+			</audio>
+			
+			<p id = "Tráiler">Tráiler: </p>
+			<video controls>
+				<source src = "Tráiler/Tráiler.mp4" type = "video/mp4">
+			</video>
+		</div>
+		
+		
+		
+		
+	</div>
+	
+	<button onclick = "ocultarJuego()" type = "Título"> SOBRE EL JUEGO <img src = "Fotos/flechaAbajo.png" id = "abajoJuego" Type = "flecha" </img> <img src = "Fotos/flechaArriba.png" id = "arribaJuego" Type = "flecha" </img></button>
+	
+	<div id = "Campaña">
+		<div id = "Historia" class = "ApartadosCampaña">
+			<h3 id = "tituloHistoria"> Historia </h3>
+			<div class = "padding">
+				<p> <strong Type = "Subtítulo">La historia del libro: </strong><br><br></p><p class = "padding"> Zephyr era una noble de bajo rango que vive en Mur Xia, un pueblo central de Shizia, país de la luz. Un día, la joven y Don Lucas, descendiente de la familia real, se cruzaron en una de las típicas escapadas del muchacho. Ambos se enamoraron a primera vista y continuaron viéndose a escondidas, a pesar de que el rey, padre de Lucas, tenía pensado comprometer a su hijo con la princesa de Adarlan, país vecino. Este romance, sin embargo, no pasaría desapercibido, pues la curiosa Erika, hermana de Lucas y sirvienta del castillo por ser la bastarda del rey, lo descubrió al seguir a su hermano en una de sus escapadas. A su vuelta al castillo, Erika decidió contar lo que había visto a su padre, el rey, para ganarse su favor. Al enterarse, sin embargo, intentó ocultar el romance de su hijo con una noble de bajo rango de todas las formas posibles, mandando a sus guardias apresar y matar a Erika para que aquello que vio muriera con ella. 
+				<br><br> Ante esta situación, Erika huyó del castillo lo más rápido posible, seguida de un grupo de guardias que, finalmente, acabaron con ella. Lo que el rey desconocía era que entre esos guardias estaba Ethan, un infiltrado del reino enemigo, Svart, que decidió secuestrar y llevar a su país natal a la amante de Lucas, Zephyr, para posteriormente sobornar a la familia real de Shizia. Esta última no cayó en provocaciones, por lo que Svart hizo público el romance entre Lucas y Zephyr, motivo por el cual se canceló el matrimonio entre el príncipe y la heredera al trono de Adarlan. Al conocer esta noticia, el rey de Shizia, que padecía de problemas cardíacos, sufrió un ataque al corazón que acabó con su vida.
+				<br><br> Días después, Lucas tomó el trono de Shizia y comenzó una guerra contra Svart para recuperar a su amada. Es así como tuvieron lugar encarnizadas luchas, marcadas por el poder del amor y la amistad, entre ambos reinos y sus respectivos líderes: Lucas y el príncipe Korbin. Y para saber el desenlace… Habrá que leerse el libro.  
+				</p><br>
+				
+				<p> <strong Type = "Subtítulo"> La historia de Mc: </strong> <br><br></p><p class = "padding"> Mc era una joven de 17 años, nacida de manera indeseada en una familia pobre que nunca se preocupó por ella. Jamás le gustó socializar, y prefería pasar desapercibida sin querer ser en ningún momento el centro de atención. Sin embargo, y a pesar de esto, era el blanco de unos abusones que nunca la dejaban en paz. Un día, mientras paseaba sujetando con fuerza su libro favorito, Shizia, entre sus brazos, fue víctima de un brutal ataque por parte de sus acosadores que finalmente se acabó cobrando su vida. Sin embargo, este no fue el final de su historia: Mc se reencarnó en Erika, un personaje secundario de su libro favorito, justo cuando esta muere en la historia original. Al entrar al mundo despertó unos extraños poderes que salvaron al personaje, ahora Mc, de su muerte.
+				<br><br>Mientras esta reencarnación sucedía, Ethan, infiltrado de Svart que se dirigía a raptar a Zephyr, amante del príncipe, escuchó el estruendo procedente del desencadenamiento de los nuevos poderes de Erika, por lo que decidió ir a comprobar qué ha sucedido. Al llegar, encontró a la joven inconsciente, rodeada de los cadáveres de los guardias que pretendían acabar con ella. Ante la posibilidad de que Erika fuera una maga elemental, un escaso tipo de magos poderosísimos que, en combate, equivalen al poder de 5.000 tropas, decidió abandonar su misión de llevar a Zephyr a Svart, y llevó a Erika en su lugar.
+				<br><br>Tras llegar al castillo de Svart, Erika conoció al príncipe heredero, Korbin, el cual la trató, por primera vez en su vida, amablemente. Es ahí donde la joven debe, junto con el príncipe Korbin, decidir cómo quiere vivir su vida de ahí en adelante. 
+				</p> <br><br>
+			</div>
+		</div>
+		
+		
+		<div id = "Personajes" class = "ApartadosCampaña">
+			<br>
+			<h3 id = "tituloPersonajes"> Personajes:</h3>
+			<div class = "CasillaPersonaje">
+				<figure>
+					<img src = "Fotos/Erika.png"
+						alt = "Erika"
+						Type = "DibujoPersonaje"
+						</img>
+				</figure>
+				<p><strong class = "NombrePersonaje"> <br><br>Erika: <br></strong>
+					<i class = "FrasePersonaje">“Ya no soy como antes. Las personas cambian, y no siempre para bien…”</i></p>
+					<p Type = "infoPersonaje">Se reencarna en un personaje secundario de su libro favorito tras morir de forma patética y triste, aunque jamás olvidará como se sintió ante aquella situación. 
+					Al reencarnar en el mundo de su libro favorito logra despertar unos extraños poderes. ¿Qué hace en ese mundo? ¿Por qué ha reencarnado en Erika, su personaje favorito?</p>
+			</div>
+				
+			
+			
+			<div class = "CasillaPersonaje">
+				<figure>
+					<img src = "Fotos/Ethan.png" 
+						alt = "Ethan"
+						type = "dibujoPersonaje" </img>
+				</figure>
+				<p><strong class = "NombrePersonaje"> <br><br>Ethan:<br> </strong> 
+					<i class = "FrasePersonaje">"Cuanto más te alejes de mí mejor. Eres muy molesta."</i></p>
+					<p Type = "infoPersonaje">Un espía y asesino del reino Svart. No hay demasiada información sobre él; es un joven misterioso que se niega a estar con otras personas. ¿Lograrás descubrir lo que esconde?</p>	
+			</div>
+			
+			
+			<div class = "CasillaPersonaje">
+				<figure>
+					<img src = "Fotos/Korbin.png"
+						alt = "Korbin"
+						Type = "DibujoPersonaje"
+						</img>
+				</figure>
+				<p> <strong class = "NombrePersonaje"> <br><br>Korbin<br> </strong>
+					<i class = "FrasePersonaje">“No deberías fiarte de las apariencias. Te sorprendería saber la cantidad de personas con doble cara.”</i></p>
+					<p Type = "infoPersonaje">El príncipe del reino Svart. Adorado por todos y conocido por ser una persona amable y bondadosa, al contrario que el tirano de su padre, pero… ¿es tan bueno como aparenta?</p>
+			</div>
+		</div>
+		
+		<div id = "Gameplay" class = "ApartadosCampaña">
+			<h3 id = "tituloGameplay"> Gameplay:</h3>
+			<p class = "megaPadding">Se trata de una novela visual clásica en 2D estilo point-n-click para móvil que ofrecerá más de 3 horas de juego si sólo se completan los objetivos principales. Se trata de un juego con estructura arbórea, por lo que las decisiones de los jugadores modifican la trama y conllevan diferentes finales. Todos los elementos de la interfaz simulan las hojas de un libro, en la cual se pueden elegir las distintas opciones (menús, ajustes, comenzar nueva partida, continuar…). 
+			<br><br><strong>Mecánicas:</strong> como ya se ha dicho, es un juego básico point-n-click. Sin embargo, el uso que Erika le da a sus poderes mágicos elementales depende del jugador, no sólo respecto al objetivo o momento en el que se usarán, sino que además se verá afectada la calidad del hechizo. En el mundo del libro en el que se desarrolla el juego la proyección y el control de las habilidades mágicas que solo ciertos individuos poseen se encuentran estrechamente relacionadas con una serie de runas grabadas en piedra con las que el jugador deberá trabajar y familiarizarse mediante distintos minijuegos en los que contará con tres oportunidades. El éxito o fracaso de Erika al tratar de usar sus poderes mediante un minijuego tendrá repercusiones, negativas o positivas, para la historia. Los tres distintos tipos de minijuegos que el jugador deberá superar dependiendo de la técnica que decida emplear son:</p>
+			<ul class = "Jugabilidad">
+				<li><strong> Trazos de luz: </strong>se iniciará cuando el jugador seleccione un hechizo protector o de curación. Las runas mágicas llevan circulando entre los pobladores durante generaciones, ciertas de estas han sido empleadas con mucha más frecuencia y se han desgastado durante los últimos siglos. Si Erika decide utilizar alguna de estas el jugador deberá reescribir estos símbolos siguiendo el orden correcto indicado a la hora de realizar los trazos. Cuanto más rápido y preciso sea el proceso, mejor será el hechizo. </li>
+				<br><li><strong> Concentración: </strong>se iniciará cuando el jugador seleccione un hechizo explosivo o de ataque en área. Para realizar un hechizo de este calibre, Erika necesita usar varias runas para almacenar la energía necesaria. Por tanto, al jugador se le presentará una serie de runas en una secuencia concreta, las cuales se desplazarán por la pantalla, desordenándose. Para que el ataque sea lo más efectivo posible, el jugador deberá arrastrar las runas para mantenerlas colocadas como estaban al principio antes de que el tiempo se acabe.</li>
+				<br><li><strong> Selección natural: </strong>se iniciará cuando el jugador seleccione un hechizo de ataque dirigido. Debido al gran talento de Erika y lo rápido que finalizó su proceso de entrenamiento hay una gran colección de hechizos cuya combinación de runas jamás llegó a memorizar, sino que los ejecutaba gracias a su intuición. De este modo, tras apreciar la pequeña y constante relación entre las runas y los hechizos (la cual será revelada llegado el momento oportuno), el jugador deberá elegir instintivamente qué runas utilizar para realizar este tipo de hechizos.</li>
+			</ul>
+			<br><p class = "megaPadding"> <strong> Diálogos: </strong>las distintas conversaciones clave que pueden desencadenarse con el resto de personajes pueden contar con pequeños eventos especiales que impliquen una mecánica diferente. En ocasiones puede tratarse de pruebas de velocidad en las que las respuestas deban elegirse dentro de un límite de tiempo o de opciones secretas escondidas que solo pueden seleccionarse si el jugador logra descubrir dónde se encuentran.
+			<br>Sistema de <strong>puntos de guardado</strong> limitados: el juego se guardará automáticamente cada vez que llegue la noche y la protagonista duerma.
+			<br><br>IMPORTANTE: si el sistema detecta que se cerró el juego sin guardar tras una elección importante, la próxima vez que el jugador llegue a la misma decisión Erika decidirá por su propia cuenta aleatoriamente. 
+			<br><br>
+			</p>
+		</div>
+	</div>
+		
+		
+	<button onclick = "ocultarDinero()" id = "BotónDinero" type = "Título">APORTACIONES<img src = "Fotos/flechaAbajo.png" id = "abajoDinero" Type = "flecha" </img> <img src = "Fotos/flechaArriba.png" id = "arribaDinero" Type = "flecha" </img></button>
+	
+	<div id = "Dinero">
+		<div class = "megaPadding">
+		<br  id = "Contribuciones">
+		<h3 class = "TituloDinero"> Contribuciones: </h3>
+		
+		<div class = "megapadding">
+			<div class = "Contribución" id = "Cuadernillo">
+				<P class = "DescripciónContribución">  Cuadernillo DIN-A 5 con la portada del libro de Mc. 150 páginas y hojas en blanco </p>
+				<p class = "GastosEnvío"> Envío en 5 días laborables (sin gastos de envío) en Europa <br> Envío entre 2 semanas y un mes (con 5€ de gastos de envío) en Latinoamérica</p>
+			</div>
+			
+			<div class = "Contribución" id = "Llavero">
+				<P class = "DescripciónContribución">  Llavero aleatorio de un personaje </p>
+				<p class = "GastosEnvío" id = "masLejos"> Envío en 5 días laborables (sin gastos de envío) en Europa <br> Envío entre 2 semanas y un mes (con 5€ de gastos de envío) en Latinoamérica</p>
+			</div>
+			
+			<div class = "Contribución" id = "Cartas">
+				<P class = "DescripciónContribución"> Pack aleatorio de cartas exclusivas escritas por los personajes </p>
+				<p class = "GastosEnvío"> Envío en 5 días laborables (sin gastos de envío) en Europa <br> Envío entre 2 semanas y un mes (con 5€ de gastos de envío) en Latinoamérica</p>
+			</div>
+		</div>
+		
+		
+		<br id = "Objetivos">
+		<h3 class = "TituloDinero">Objetivos:</h3>
+			
+		<div class = "megaPadding">
+			<table id = "tablaObjetivos">
+				<caption> Nota: la suma mostrada es la total, teniendo en cuenta las anteriores entregas</caption>
+					
+					<thead>
+						<tr>
+							<th></th>
+							<th>Objetivo</th>
+							<th>Presupuesto necesario</th>
+							<th id = "LastTh">Fecha de salida</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr>
+							<td id = "izqTabla">I</td>
+							<td>Primer capítulo</td>
+							<td>1000€</td>
+							<td id = "derTabla">5 meses tras llegar al presupuesto</td>
+						</tr>
+						<tr>
+							<td id = "izqTabla">II</td>
+							<td>Segundo capítulo</td>
+							<td>2000€</td>
+							<td id = "derTabla">5 meses tras llegar al presupuesto</td>
+						</tr>
+						<tr>
+							<td id = "izqTabla">III</td>
+							<td>Tercer capítulo</td>
+							<td>3000€</td>
+							<td id = "derTabla">5 meses tras llegar al presupuesto</td>
+						</tr>
+						<tr>
+							<td id = "izqTabla">IV</td>
+							<td>Nuevo modo de juego: "Historia Original"</td>
+							<td>5500€</td>
+							<td id = "derTabla">12 meses tras llegar al presupuesto</td>
+						</tr>
+						<tr>
+							<td id = "LastIzq">V</td>
+							<td id = "abajoTabla">Personalización de los personajes principales</td>
+							<td id = "abajoTabla">8500€</td>
+							<td id = "LastDer">8 meses tras llegar al presupuesto</td>
+						</tr>
+			</table>
+			
+		</div>
+		</div>
+	</div>
+		
+	<button onclick = "ocultarPreguntas()" id = "BotónPreguntas" Type =  "Título">PREGUNTAS FRECUENTES<img src = "Fotos/flechaAbajo.png" id = "abajoPreguntas" Type = "flecha" </img> <img src = "Fotos/flechaArriba.png" id = "arribaPreguntas" Type = "flecha" </img></button>
+		
+	<div id = "Preguntas">
+		<button class = "Pregunta" onclick = "alternarRespuesta(1)"><img src = "Fotos/flechaDerecha.png" class = "flechaHorizontal"</img>¿Cuándo saldrá el juego?</button>
+		<p id = "Pregunta1" class = "Respuesta" > Como se ha anunciado en el apartado de <a href = "#Objetivos" onclick = "hacerVisibleDinero()">objetivos</a>, desde McAcos nos comprometemos a publicar el primer capítulo tras llegar al presupuesto necesario, siendo la fecha límite 5 meses después de obtener los 1000€ necesarios. Así que, si no puedes esperar para jugar a <i>Dark Stained Love</i>... ¡no dudes en contribuir! </p>
+		
+		<button class = "Pregunta" onclick = "alternarRespuesta(2)"><img src = "Fotos/flechaDerecha.png" class = "flechaHorizontal"</img>¿Cuánto costará?</button>
+		<p class = "Respuesta" id = "Pregunta2"> <i> Dark Stained Love</i> será un juego comercializado por episodios. Como no creemos en el uso de anuncios como forma ideal de negocio, hemos optado por darle a cada capítulo un coste moderado de 1€. Una vez comprado un capítulo, los jugadores podrán jugarlo cuanto deseen sin tener que ver ningún tipo de anuncio ni pagar dinero extra. Además, planeamos sacar una versión completa de todo el juego por 5€ una vez los objetivos estén completados. </p> 
+		
+		<button class = "Pregunta" onclick = "alternarRespuesta(3)"><img src = "Fotos/flechaDerecha.png" class = "flechaHorizontal"</img>¿Qué tipo de beneficios me aporta colaborar?</button>
+		<p class = "Respuesta" id = "Pregunta3"> En el apartado de <a href = "#Contribuciones" onclick = "hacerVisibleDinero()">contribuciones</a> se puede consultar todo lo relacionado con los donativos al juego y los beneficios que estos suponen. Por supuesto, cualquier persona que lo desee puede contribuir con la suma que prefiera sin necesidad de comprar ningún artículo.  </p>
+		
+		<button class = "Pregunta" onclick = "alternarRespuesta(4)"><img src = "Fotos/flechaDerecha.png" class = "flechaHorizontal"</img>¿Podré jugar gratis al juego si colaboro?</button>
+		<p class = "Respuesta" id = "Pregunta4"> No. Las recompensas están listadas en contribuciones y son únicamente las ahí presentes. Sin embargo, no descartamos la posibilidad de hacer un sorteo de juegos gratis entre todos nuestros contribuidores. ¡Más información en nuestro <a href = "https://www.instagram.com/p/CcoBADaIvLs/?igshid=MDJmNzVkMjY=" target = "_blank"> Instagram</a>!</p>
+	
+		<button class = "Pregunta" onclick = "alternarRespuesta(5)"><img src = "Fotos/flechaDerecha.png" class = "flechaHorizontal"</img>¿Será tan bueno como <i> Julián</i>?</button>
+		<p class = "Respuesta" id = "Pregunta5"> No podemos garantizar que <i>Dark Stained Love</i> sea mucho mejor que nuestro primer y tan querido juego <i> <a href = "https://guajiro0.itch.io/julian" target = "_blank"> Julián</a></i>, pero sí podemos garantizar que intentaremos hacer el mejor trabajo posible, y para eso necesitamos vuestra ayuda. ¡No dudéis en escribir vuestras opiniones y críticas en nuestro <a href = "https://discord.gg/6BkNuAuV" target = "_blank"> Discord </a>oficial o en la sección de comentarios! </p>
+		
+	</div>
+	
+	
+	<button onclick = "ocultarComentarios()" id = "BotónComentarios" Type =  "Título">COMENTARIOS<img src = "Fotos/flechaAbajo.png" id = "abajoComents" Type = "flecha" </img> <img src = "Fotos/flechaArriba.png" id = "arribaComents" Type = "flecha" </img></button>
+		<div id = "Comentarios">
+			<widgetbot
+			  server="968950003567558736"
+			  channel="968953911216058448"
+			  width="1000"
+			  height="750"
+			></widgetbot>
+		</div>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
+	
+	<div id = "Síguenos">
+		<br id = "Redes">
+		<h3 class = "TituloNoCampaña">¡Síguenos!</h3>
+		
+		<div class = "Siguenos">
+		
+			<a href = "https://www.instagram.com/p/CcoBADaIvLs/?igshid=MDJmNzVkMjY=" target = "_blank" Type = "Links">
+				<figure>
+					<img src = "Fotos/Insta.png"
+						alt = "Instagram"
+						id = "Instagram" </img>
+					<figcaption>Instagram oficial</figcaption>
+				</figure>	
+			</a>
+			
+			<a href = "https://twitter.com/Mc_Acos?t=r2W0pqWhV0LVc1SDvDZyiw&s=08" target = "_blank" Type = "Links">
+				<figure>
+					<img src = "Fotos/Twitter.png"
+						alt = "Twitter"
+						id = "Twitter" </img>
+					<figcaption>Twitter oficial</figcaption>
+				</figure>	
+			</a>
+			
+			<a href = "https://discord.gg/5xywrMFu" target = "_blank" Type = "Links">
+				<figure>
+					<img src = "Fotos/Discord.png"	
+						alt = "Discord"
+						id = "Discord" </img>
+					<figcaption>Discord oficial</figcaption>
+				</figure>	
+			</a>
+		</div>
+		
+		<br id = "Equipo">
+		<div class = "Equipo">
+			<h3 class = "TituloNoCampaña">Equipo de desarrollo</h3>
+			<div class = "CasillaMiembro">
+				<img src = "Fotos/MacacoGhaudy.png" class = "FotosEquipo"</img>
+				<p class = "NombreEquipo">Rosa Ghaudy Bellido Euribe</p>
+				<p class = "DescripciónEquipo"><strong>Alias: </strong>"Shrimp"
+				<br><strong>Participó en: </strong>creación de fondos y escenarios, creación de tipografías y edición de vídeo
+				<br><strong>Puesto: </strong>Community Manager</p>
+				<a href = "mailto:mc.acosofficial@gmail.com?Subject=Sobre Rosa Ghaudy Bellido" class = "Correo" target = "_blank">Enviar un correo</a>
+			</div>
+			
+			<div class = "CasillaMiembro">
+				<img src = "Fotos/MacacoKares.png" class = "FotosEquipo"</img>
+				<p class = "NombreEquipo">Carlos Escribano González</p>
+				<p class = "DescripciónEquipo"><strong>Alias: </strong>"Kares"
+				<br><strong>Participó en: </strong>guion, programación, música y diseño de la página web
+				<br><strong>Puesto: </strong>CEO</p>
+				<a href = "mailto:mc.acosofficial@gmail.com?Subject=Sobre Carlos Escribano" class = "Correo" target = "_blank">Enviar un correo</a>
+			</div>
+			
+			<div class = "CasillaMiembro">
+				<img src = "Fotos/MacacoIrene.png" class = "FotosEquipo"</img>
+				<p class = "NombreEquipo">Irene Rodríguez García</p>
+				<p class = "DescripciónEquipo"><strong>Alias: </strong>"Guajiro"
+				<br><strong>Participó en: </strong>arte de la página web, creación de personajes y creación de fondos
+				<br><strong>Puesto: </strong>Artista técnico</p>
+				<a href = "mailto:mc.acosofficial@gmail.com?Subject=Sobre Irene Rodríguez" class = "Correo" target = "_blank">Enviar un correo</a>
+			</div>
+			
+			<div class = "CasillaMiembro">
+				<img src = "Fotos/MacacoMiriam.png" class = "FotosEquipo"</img>
+				<p class = "NombreEquipo">Miriam Sanz Tardón</p>
+				<p class = "DescripciónEquipo"><strong>Alias: </strong>"Ghost"
+				<br><strong>Participó en: </strong>concept art, guion y animación
+				<br><strong>Puesto: </strong>Concept artist</p>
+				<a href = "mailto:mc.acosofficial@gmail.com?Subject=Sobre Miriam Sanz" class = "Correo" target = "_blank">Enviar un correo</a>
+			</div>
+		</div>
+		
+		
+		
+		
+		<br id = "MásJuegos">
+		<h3 class = "TituloNoCampaña"> Más juegos de McAcos: </h3>
+		<a href = "https://guajiro0.itch.io/julian" target = "_blank">
+			<figure>
+				<img src = "Fotos/Julián.jpg"
+				alt = "Julián"
+				class = "OtrosJuegos" 
+				Type = "Links"
+				</img>
+			<figure/>
+		</a>
+	</div>
+	
+	
+	<div class = "padding">
+		<h3 class = "TituloNoCampaña" id = "TítuloCréditos">Créditos: </h3>
+		<ul class = "Créditos">
+			<li class = "Crédito"><a href = "https://www.soundtrap.com/edu/?lang=es" target = "_blank" Type = "Links">Software de producción de música, soundtrack</a></li>
+			<li class = "Crédito"><a href = "https://www.isotopo.org/callejon-oscuro.html" target = "_blank" Type = "Links">Fondo del callejón, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://espanafascinante.com/aire-libre/jardines-del-palacio-real-de-la-granja/" target = "_blank" Type = "Links">Fondo del jardín del palacio, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://viajar.elperiodico.com/galerias/destinos/encontrar-cerezos-flor-bonitos-japon?foto=1#galeria-41881-2322180" target = "_blank" Type = "Links">Fondo de la arboleda de cerezos, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://www.eldiariomontanes.es/fotos/santander/201409/12/habitaciones-palacio-magdalena-309871760754-mm.html" target = "_blank" Type = "Links">Fondo de la habitación del palacio, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://www.patrimonionacional.es/visita/palacio-real-de-madrid" target = "_blank" Type = "Links">Fondo del interior del palacio, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://www.cientifiko.com/bosques/" target = "_blank" Type = "Links">Fondo del bosque, tráiler</a></li>
+			<li class = "Crédito"><a href = "https://picrew.me/image_maker/444988" target = "_blank" Type = "Links">Herramienta de creación de avatares, equipo</a></li>
+		</ul>
+	</div>
+	
+	
+	
+	<footer>Autor: McAcos, grupo C. El uso de cualquier material audiovisual de esta web con fines comerciales queda prohibido por derechos de autor.</footer> <br><br>
+	
+	
+	<script src = "interact.js"></script>
+	
+	</body>
+
+</html>
